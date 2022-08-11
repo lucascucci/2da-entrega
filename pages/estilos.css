@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Roboto:ital,wght@1,100&family=Rubik+Moonrocks&display=swap');
+
+
+.navbar {
+    background-color: rgb(163, 122, 202);
+    text-shadow: 1px 1px 5px rgb(26, 4, 4);
+
+}
+
+.jumbotron{
+    background-image: url(../Multimedia/2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 1px 1px 5px rgb(255, 247, 247);
+    border-radius: 0;
+    height: 500px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: azure;
+}
+
+a.navbar-brand {
+    color: rgb(68, 8, 64) !important;
+    transform: skewX(10deg);
+    
+}
+
+.btn-dark {
+    background-color:rgb(163, 122, 202);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(231, 243, 243);
+}
+
+h2 {
+    background-color: rgb(163, 122, 202);
+    color: bisque;
+    text-align:end ;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px !important;
+    
+}
+
+.nleft {
+    background-image: url(../Multimedia/3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+
+}
+
+.nrigth {
+    background-color: rgb(37, 85, 85);
+}
+
+.nrigth h3 {
+    font-family: 'Roboto', sans-serif;
+    color: aquamarine;
+    padding-top: 30px;
+}
+
+.nrigth p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(162, 109, 212);
+}
+
+footer {
+    background-color: blueviolet;
+    height: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}

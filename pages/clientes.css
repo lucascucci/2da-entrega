@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lobster&family=Oleo+Script+Swash+Caps&family=PT+Sans+Narrow:wght@700&family=Permanent+Marker&family=Roboto:ital,wght@1,100&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0%;
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #eedd44);
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+
+main {
+    height: 400px;
+    width: 100%;
+    background-image: url(../Multimedia/variedades.png);
+    background-size: contain;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.call {
+    background-color: rgba(24, 45, 64, 0.692);
+    width: 50%;
+    padding: 20px;
+    border: 2px solid rgb(226, 220, 232);
+}
+.call p {
+    margin-bottom: 20px;
+    color: rgb(159, 140, 178);
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+}
+.botoncall {
+    background-color: rgb(36, 76, 56);
+    text-decoration: none;
+    padding: 0px 20px;
+    color: antiquewhite;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.botoncall:hover {
+    background-color: rgb(171, 25, 159);
+}
+
+.galeria {
+
+    background-color: rgb(173, 92, 189);
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(8 , 200px);
+    padding: 10px;
+    grid-gap: 10px;
+}
+.item:hover {
+    transform: scale(1.07);
+    filter: sepia(0%);
+    transition: all 0.8s;
+}
+.item {
+    border-radius: 5px;
+    border: 3px solid #000;
+    filter: sepia(100%);
+    transition: all 0.8s;
+}
+
+.item1 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item5 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item6 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item7 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.item8 {
+    background-image: url(../Multimedia/variedades.png);
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 16px !important;
+    text-align: center;
+    background-color: rgb(173, 92, 189);
+    font-family: 'Libre Baskerville', serif;
+ 
+}
+
+
+@media only screen and (min-width:360px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr); 
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+    .call h1 {
+        font-size: 20px;
+    }
+    .call p {
+        font-size: 1em;
+    }
+    .nrigth{
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:767px) {
+    .logo {
+        font-size: 22px;
+    }
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "img1 img1 img2"
+                            "img3 img4 img4"
+                            "img5 img5 img6"
+                            "img7 img8 img8";
+    }
+    .item1{
+        grid-area: img1;
+    }
+    .item2{
+        grid-area: img2;
+    }
+    .item3 {
+        grid-area: img3;
+    }
+    .item4 {
+        grid-area: img4;
+    }
+    .item5 {
+        grid-area: img5;
+    }
+    .item6 {
+        grid-area: img6;
+    }
+    .item7 {
+        grid-area: img7;
+    }
+    .item8 {
+        grid-area: img8;
+    }
+    .call h1 {
+        font-size: 22px;
+    }
+    .call p {
+        font-size: 19px;
+    }
+    .nrigth{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 190px);
+        grid-template-areas: "img1 img2 img3 img3"
+                            "img1 img4 img5 img6"
+                            "img7 img4 img8 img8";
+    }
+    .item1 {
+        grid-area: img1;
+    }
+    .item2 {
+        grid-area: img2;
+    }
+    .item3 {
+        grid-area: img3;
+    }
+    .item4 {
+        grid-area: img4;
+    }
+    .item5 {
+        grid-area: img5;
+    }
+    .item6 {
+        grid-area: img6;
+    }
+    .item7 {
+        grid-area: img7;
+    }
+    .item8 {
+        grid-area: img8;
+    }
+    .call h1 {
+        font-size: 24px;
+    }
+    .call p {
+        font-size: 22px;
+    }
+    .nrigth{
+        font-size: 22px;
+    }
+}

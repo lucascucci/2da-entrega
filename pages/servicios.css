@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Roboto:ital,wght@1,100&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Lobster&family=Oleo+Script+Swash+Caps&family=PT+Sans+Narrow:wght@700&family=Permanent+Marker&family=Playfair+Display:wght@600;700&family=Roboto:ital,wght@1,100&family=Rubik+Dirt&family=Rubik+Moonrocks&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+.feature {
+    height: 250px;
+    border: 1px solid #fff;
+    background-color: rgb(156, 67, 234);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding: 15px;
+    background-image: url(../Multimedia/765560.png);
+    background-size: cover;
+
+}
+
+.feature.feat3 {
+    background-color: blue;
+    background-image: url(../Multimedia/variedades.png);
+}
+
+.feature.feat4 {
+    background-color:red;
+    font-size: 16px;
+}
+.feature.feat2 {
+    background-color:yellow;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 2 !important;
+
+}
+
+.feature i {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(153, 75, 182);
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+.feature p {
+    color: rgb(1, 14, 7);
+}
+
+section  {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
+}
+
+section div p {
+    background-image: radial-gradient(rgb(202, 174, 174), violet)
+}
+
+.servi {
+    font-family: 'Playfair Display', serif;
+}
+
+.servi h4 {
+    font-size: 32px;
+    font-weight: 100;
+    
+}
+@media only screen and (min-width:360px) and (max-width:425px){
+    h4 {
+        font-size: 20px !important;
+    }
+
+}
